@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Commerce website</title>
+<header>
+  <nav>
+    <a href="im.html">
+        <button>Home</button>
+        </a>
+    <button>About</button>
+    <button>Contact</button>
+    <a href="login.html">
+    <button>Login</button>
+    </a> 
+  </nav>
+</header>
+<h2 style="text-align: center;">
+  Samsung S24 Ultra
+</h2>
+<link rel="stylesheet" href="i.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="thumbnails segment">
+    <div class="thumbnail">
+      <img src="https://i.gadgets360cdn.com/products/large/galaxy-s24-ultra-797x800-1705519965.jpg" alt="image 1" onclick="openModal('https://i.gadgets360cdn.com/products/large/galaxy-s24-ultra-797x800-1705519965.jpg')">
+    </div>
+    <div class="thumbnail">
+      <img src="https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-form-factor-start-mo_1.jpg?imbypass=true" alt="image 2" onclick="openModal('https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-form-factor-start-mo_1.jpg?imbypass=true')">
+    </div>
+    <div class="thumbnail">
+      <img src="https://www.kimstore.com/cdn/shop/articles/S24_Ultra_Banner.png?v=1705634996" alt="image 3" onclick="openModal('https://www.kimstore.com/cdn/shop/articles/S24_Ultra_Banner.png?v=1705634996')">
+    </div>
+    <div class="thumbnail">
+      <img src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2024/01/Galaxy-s24ultra-scaled.jpg?ssl=1&quality=80&w=f" alt="image 4" onclick="openModal('https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2024/01/Galaxy-s24ultra-scaled.jpg?ssl=1&quality=80&w=f')">
+    </div>
+    <div class="thumbnail">
+      <img src="https://www.sammobile.com/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra-Camera-Specifications.jpg" alt="image 5" onclick="openModal('https://www.sammobile.com/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra-Camera-Specifications.jpg')">
+    </div>
+   
+  </div>
+  <div class="limage" style="margin-left: 30px;">
+    <img src="https://images.samsung.com/uk/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titanium-yellow-back-mo.jpg?imbypass=true" alt="Image Beside Thumbnails" height="450px" width="590px" style="border-radius: 15px; margin-top: 68px; margin-right: 10px; cursor: pointer;" >
+    
+      <div class="button">
+        <a href="i.html">
+          <button class="my-button">12RAM+256GB</button>
+        </a>
+        <a href="i1.html">
+          <button class="my-button">12RAM+512GB</button>
+        </a>
+        <a href="i2.html">
+          <button class="my-button">16RAM+512GB</button>
+        </a>
+        <a href="i3.html">
+          <button class="my-button">16RAM+1TBGB</button>
+        </a>
+        <footer>
+            <button><i>ADD TO CART</i></button>
+            <button><i>BUY NOW</i></button>
+            </footer>
+
+      </div>
+      
+    
+  </div>
+  <div class="para" style="margin-top: 20px;">
+    <p>
+      <ul>
+        <li><b>Samsung Galaxy S24 Ultra(512GB)(16GB RAM):</b> <br></li>
+        <p style="color: rgb(242, 191, 96);"><b>1,49,999/-</b><br><br></p>
+        <li><b>Design:</b> Premium metal and glass build, available in multiple colors.<br></li>
+        <li><b>Display:</b> 6.8-inch QHD+ Super AMOLED display with 120Hz refresh rate.<br></li>
+      <li><b>Performance:</b>
+        <ul>
+      <li><b>Processor:</b> Latest Exynos/Snapdragon chipset.<br></li>
+      <li><b>RAM:</b> Options of 12GB or 16GB.</li>
+      <li><b>Storage:</b> 256GB to 1TB variants.<br></ul></li>
+      <li><b>Camera:</b>
+      <ul>  
+        <li><b>Rear:</b> Quad-camera setup with up to 200MP main sensor.<br></li>
+      <li><b>Zoom:</b> Up to 10x optical zoom.<br></li>
+      <li><b>Front:</b> 40MP selfie camera.<br></li></ul>
+      <li><b>Battery:</b> 5000mAh capacity with fast, wireless, and reverse wireless charging.<br></li>
+      <li><b>Software:</b> Runs the latest Android with Samsung One UI enhancements.<br></li>
+      <li><b>Connectivity:</b> Supports 5G, Wi-Fi 6E, and Bluetooth 5.2.<br></li>
+      <li><b>Additional Features:</b>
+        <ul>
+      <li><b>S-Pen:</b> Included for productivity.<br></li>
+      <li><b>Durability:</b> IP68 water and dust resistance.<br></li></ul>
+      </ul>
+
+      </p>
+  </div>    
+
+  <div class="large-image segment">
+    <div id="myModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage">
+    </div>
+  </div>
+  
+
+
+
+  
+
+<script>
+function openModal(imageSrc) {
+  var modal = document.getElementById("myModal");
+  var modalImg = document.getElementById("modalImage");
+  modal.style.display = "block";
+  modalImg.src = imageSrc;
+}
+
+function closeModal() {
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+}
+</script>
+
+
+</body>
+</html>

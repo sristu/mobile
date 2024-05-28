@@ -1,0 +1,116 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-image {
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-digital-retailing-illustration-laptop-keyboard-with-shopping-basket-and-e-commerce-image_3903657.jpg'); /* Replace 'your-image.jpg' with your image file path */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+.background-image h1 {
+  font-size: 36px;
+}
+.serach {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #333; 
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+}
+a em, a i, button {
+  display: inline-block;
+  background: rgb(240, 201, 101);
+  color: black;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  padding: .5em .75em;
+  min-width: 10ch;
+  user-select: none;
+  font-style: normal;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  margin-right:12px;
+}
+
+a em:hover, a i:hover, button:hover {
+  background: rgb(182, 182, 235);
+  border-color: var(--border-color);
+  cursor: pointer;
+}
+
+a em:focus, a i:focus, button:focus {
+  outline: 0;
+  color: black;
+  background-color: var(--secondary);
+  border-color: var(--border-color);
+  box-shadow: var(--button-focus);
+}
+
+a em, button[type=button] {
+  background-color: #ec5c5c;
+  color: black;
+  border-color: var(--primary);
+}
+
+a em:hover, button[type=button]:hover {
+  background: rgb(182, 182, 235);
+  color:black;
+  cursor: pointer;
+}
+
+form > button {
+  display: block;
+  width: 100%;
+}
+button {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(240,210,101);
+  margin-right: 15px;
+}
+.search-container {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  flex: 1; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; 
+}
+
+button[type="submit"] {
+  background-color: rgb(240,210,101); 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 4px 4px 0; 
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; 
+}
